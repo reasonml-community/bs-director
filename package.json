@@ -1,0 +1,16 @@
+{
+  "name": "bs-director",
+  "version": "0.0.0",
+  "description": "BuckleScript bindings to the Director router",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "director": "^1.2.8"
+  }
+}
