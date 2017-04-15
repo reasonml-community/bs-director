@@ -3,9 +3,12 @@
   "version": "0.0.0",
   "description": "BuckleScript bindings to the Director router",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "bs-platform": "^1.6.0"
+  },
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "start": "bsb -w"
   },
   "keywords": [],
   "author": "",
