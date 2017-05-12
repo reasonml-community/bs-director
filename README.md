@@ -11,9 +11,10 @@ npm i bs-director
 ```reason
 let router =
   DirectorRe.makeRouter {
-    "/": fun () => Js.log "Navitaged to tasks list",
-    "/active": fun () => Js.log "Navitaged active tasks list",
-    "/completed": fun () => Js.log "Completed a task"
+    "/": fun () => Js.log "Navigated to tasks list",
+    "/active": fun () => Js.log "Navigated active tasks list",
+    "/profile/:userid": fun (userid: string) => Js.log ("Navigated to profile for: " ^ userid)
+    "/completed": fun () => Js.log "Completed a task",
   };
 
 DirectorRe.init router "/";
