@@ -17,5 +17,8 @@ let router =
     "/completed": fun () => Js.log "Completed a task",
   };
 
+/* Optional configuration */ 
+DirectorRe.configure router {"foo": "bar"};
+
 DirectorRe.init router "/";
 ```
