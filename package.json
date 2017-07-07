@@ -1,6 +1,6 @@
 {
   "name": "bs-director",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "BuckleScript bindings to the Director router",
   "main": "index.js",
   "devDependencies": {
