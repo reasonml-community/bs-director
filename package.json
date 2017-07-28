@@ -4,7 +4,7 @@
   "description": "BuckleScript bindings to the Director router",
   "main": "index.js",
   "devDependencies": {
-    "bs-platform": "^1.8.0"
+    "bs-platform": "^1.8.2"
   },
   "scripts": {
     "test": "exit 0",
