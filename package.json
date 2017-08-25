@@ -4,11 +4,13 @@
   "description": "BuckleScript bindings to the Director router",
   "main": "index.js",
   "devDependencies": {
-    "bs-platform": "^1.8.2"
+    "bs-platform": "^1.9.0"
   },
   "scripts": {
-    "test": "exit 0",
-    "start": "bsb -w"
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0"
   },
   "keywords": [],
   "author": "",
