@@ -1,10 +1,9 @@
 type t;
 
-external makeRouter : Js.t {..} => t =
-  "Router" [@@bs.module "director/build/director"] [@@bs.new];
+[@bs.module "director/build/director"] [@bs.new] external makeRouter : Js.t({..}) => t = "Router";
 
-external configure : t => Js.t {..} => unit = "configure" [@@bs.send];
+[@bs.send] external configure : (t, Js.t({..})) => unit = "configure";
 
-external init : t => string => unit = "init" [@@bs.send];
+[@bs.send] external init : (t, string) => unit = "init";
 
-external setRoute : t => string => unit = "setRoute" [@@bs.send];
+[@bs.send] external setRoute : (t, string) => unit = "setRoute";
