@@ -12,7 +12,7 @@
     "clean": "bsb -clean-world",
     "test": "exit 0"
   },
-  "keywords": [],
+  "keywords": ["bucklescript", "reason", "ocaml"],
   "author": "",
   "license": "MIT",
   "dependencies": {
