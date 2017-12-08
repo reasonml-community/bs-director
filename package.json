@@ -1,6 +1,6 @@
 {
   "name": "bs-director",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "BuckleScript bindings to the Director router",
   "main": "index.js",
   "devDependencies": {
@@ -12,7 +12,11 @@
     "clean": "bsb -clean-world",
     "test": "exit 0"
   },
-  "keywords": ["bucklescript", "reason", "ocaml"],
+  "keywords": [
+    "bucklescript",
+    "reason",
+    "ocaml"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
