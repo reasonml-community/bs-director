@@ -17,8 +17,8 @@
     "reason",
     "ocaml"
   ],
-  "homepage": "https://github.com/reasonml-community/bs-director#readme"
-  "bugs": "https://github.com/reasonml-community/bs-director/issues"
+  "homepage": "https://github.com/reasonml-community/bs-director#readme",
+  "bugs": "https://github.com/reasonml-community/bs-director/issues",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/reasonml-community/bs-director.git"
