@@ -1,4 +1,4 @@
-# bs-director
+# [UNMAINTAINED] bs-director
 
 [BuckleScript](https://github.com/bloomberg/bucklescript) bindings to the [Director](https://github.com/flatiron/director) router.
 
